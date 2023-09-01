@@ -1,0 +1,23 @@
+{
+    "name": "leptoadmin-frontend",
+    "version": "1.0.0",
+    "description": "LeptoAdmin Web UI",
+    "author": "Hesham Ahmed <hesham@micronisus.com",
+    "main": "app.js",
+    "license": "Apache-2.0",
+    "repository": {
+      "type" : "git",
+      "url" : "https://gitlab.leptodon.com/hesham/leptoadmin-frontend.git"
+    },
+    "scripts": {
+      "start": "node app.js",
+      "debug": "node --inspect=${DEBUG_PORT} app.js",
+      "test": "node test/test.js"  
+    },
+    "dependencies": {
+      "express": "^4.18.2",
+      "pino": "^8.5.0",
+      "pino-http": "^8.2.0",
+      "prom-client": "^14.1.0"  
+    }
+  }
