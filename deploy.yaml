@@ -20,7 +20,7 @@ spec:
               containerPort: 3001
               protocol: TCP
           resources:
-            requests:
+            limits:
               memory: "50Mi"
               cpu: "10m"
 ---
